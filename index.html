@@ -1,0 +1,27 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<body>
+		<ul id="cat-list">
+		</ul>
+		<h2 id="current-cat-name"></h2>
+		<img id="cat-viewer" src="" alt="A picture of a Cat" style=max-width:50%>
+		<div id="current-click-count"></div>
+		<button id="admin-button">Admin</button>
+		<form id="formbox" hidden>
+			<fieldset>
+				Cat Name<br>
+				<input type="text" name="catname" id="cat-name-input"> <br>
+				Image Source<br>
+				<input type="text" name="imagesource" id="image-source-input"> <br>
+				Click Count <br>
+				<input type="text" name="clickcount" id="click-count-input" placeholder="Click Count"> <br>
+			</fieldset>
+			<button type="button" id="cancel-button">Cancel</button>
+			<button type="button" id="save-button">Save</button>
+		</form>
+		<script src=js/app.js></script>
+	</body>
+</html>
